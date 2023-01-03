@@ -16,12 +16,13 @@ body{
   align-content: center;
 }
 
-#landing-heading{
+#heading{
   font-size: 60px;
   height: fit-content;
   padding-right: 5px;
   background-color: darkcyan;
   color: white;
+  width: fit-content;
 }
 
 #play-buttons{
@@ -49,5 +50,21 @@ body{
 .play-button:active{
   background-color: lightseagreen;
   transform: translateY(2px);
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#guide-div{
+    width: 40%;
+    border: 1px solid black;
+    color: rgb(84, 175, 250);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
 }
 
